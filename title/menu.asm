@@ -126,8 +126,7 @@ UpdateValueLevelNumber:
     lda HeldButtons
     and #%10000000
     bne @Skip
-    jsr BANK_LoadLevelCount
-    ldx LevelNumber
+    ldx #4
     @Skip:
     stx $0
     ldy #1

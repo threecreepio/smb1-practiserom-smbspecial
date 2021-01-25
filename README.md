@@ -1,7 +1,9 @@
-Practise ROM
-============
+SMB Special Practise ROM
+========================
 
-This patch adds a stage select, power-up and framerule selection to SMB.
+This patch adds a stage select, power-up and framerule selection to SMB Special.
+
+Get the latest version at https://github.com/threecreepio/smb1-practiserom-smbspecial
 
 Usage
 -----
