@@ -113,6 +113,7 @@ CheckJumpingState:
 
 ;; Game enters here at the start of every frame
 PractiseNMI:
+    jsr SoundEngine
     lda EnteringFromMenu
     bne @Done
 @ClearPractisePrintScore:

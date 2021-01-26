@@ -191,6 +191,7 @@ ForceClearWRAM:
 .include "background.asm"
 .include "bankswitching.asm"
 .include "rng.asm"
+.include "../sound.asm"
 .include "../levels.asm"
 
 ROMSaveHeader:

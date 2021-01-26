@@ -125,8 +125,9 @@ BANK_AdvanceToLevel:
     jsr RELOCATE_GetAreaDataAddrs
     inc AreaNumber
     lda PlayerEntranceCtrl
-    and #%00000100
-    beq @AreaOK
+    and #%00000110
+    cmp #%00000110
+    bne @AreaOK
     inc $0
     bvc @NextArea
 @AreaOK:
